@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    min-height:100vh;
+    background-color: beige;
+    border: 3px solid rgb(246, 126, 126);
+    padding:50px;
+    
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+
+}
+.known{
+    
+    font-size:30px;
+    font-weight: 50px;
+    color:cadetblue
+}
+.about{
+   direction:ltr;
+   letter-spacing: 0.7px;
+   line-height:20px;
+}
+.list{
+    margin-left: 40px;
+    line-height: 20px;
+
+}
+.foot{
+    text-align:end;
+    font-weight: 15px;
+    font-size:15px;
+}
